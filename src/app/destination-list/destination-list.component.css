@@ -1,0 +1,17 @@
+.destination-img{
+    width: 200px;
+    height: 150px;
+}
+.destination-conatiner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.destination-cards{
+    margin: 20px;
+}
+.destination-name{
+    color: #0f172a;
+    font-weight: 700;
+}

@@ -1,0 +1,7 @@
+
+<div class="destination-conatiner">
+    <div *ngFor="let destinations of Destination" class="destination-cards">
+        <img [src]="destinations.imgUrl" [alt]="destinations.name" class="destination-img"/>
+        <p class="destination-name">{{destinations.name}}</p>
+    </div>
+</div>
